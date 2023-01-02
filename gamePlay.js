@@ -7,7 +7,7 @@ function checkLoss(row, columns) {
 
 function declareLoser(user, dimension) {
   if (user === "user1" && dimension[1] < 2) {
-    console.log(`${user} you lose`)
+    console.log(`${user}  you lose`)
     gameOver = true;
     return gameOver;
   }

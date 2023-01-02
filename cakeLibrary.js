@@ -24,7 +24,7 @@ function cakeMaker(column, row) {
   let columns = [];
     
     for (let j = 0; j <column; j++) {
-      columns.push(` [ ${j} ]  `);
+      columns.push(` [ * ]  `);
       cookie ++;  
     }
     //cake.push(i)
